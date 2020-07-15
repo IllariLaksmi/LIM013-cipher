@@ -66,6 +66,22 @@ main {
     color: black;
     background: #FFFFFF;
 }
+.triangulo1 {
+    width: 0px;
+    height: 0px;
+    border-right: 150px solid transparent;
+    border-left: 150px solid transparent;
+    border-bottom: 100px solid #FFFFFF;
+    float: left;
+}
+.triangulo2 {
+    width: 0px;
+    height: 0px;
+    border-right: 150px solid transparent;
+    border-left: 150px solid transparent;
+    border-bottom: 100px solid #FFFFFF;
+    float: right;
+}
 
 
 /*#6fcf97 */ 
