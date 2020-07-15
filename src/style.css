@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
+main {
+    margin-top: 180px;
+    font-size: 50px;
+}
+
+.rectangulo0 {
+    position: absolute;
+    width: 600px; 
+    height: 55px;
+    left: 401px;
+    top: 0px;
+    background-color: white;
+}
+
+.rectangulo {
+    width: 1000px; 
+    height: 100px; 
+    background: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+}
+
+.elipse1 {
+    float: left;
+    width: 350px;
+    height: 167px;
+    left: 820px;
+    top: 313px;
+    background: #6FCF97;
+    border-radius: 50%;
+    margin-left: 200px;
+    padding-top: 40px;
+    color: black;
+}
+.elipse2 {
+    float: right;
+    width: 350px;
+    height: 167px;
+    margin-right: 200px;
+    top: 313px;
+    background: #6FCF97;
+    border-radius: 50%;
+    padding-top: 40px;
+    color: black;
+}
+
+.rectangulo3 {
+    position: absolute;
+    width: 1052px;
+    height: 182px;
+    left: 197px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: black;
+    background: #FFFFFF;
+}
+
+
+/*#6fcf97 */ 
+
