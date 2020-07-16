@@ -82,6 +82,9 @@ main {
     border-bottom: 100px solid #FFFFFF;
     float: right;
 }
+.ocultar {
+    display: none;
+}
 
 
 /*#6fcf97 */ 
