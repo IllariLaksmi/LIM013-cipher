@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    margin-top: 90px;
+ 
     font-size: 50px;
 }
 
@@ -20,95 +20,197 @@ main {
     margin-right: auto;
     margin-bottom: 0px;
     top: 0px;
+    margin-top: 0px;
+    border: 0px;
     background-color: white;
 }
 
 .rectangulo {
-    position: relative;
     width: 800px; 
     height: 100px; 
     background: white;
     color: black;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    float: center;
+    font-size: 90px;
 }
 
 .elipse1 {
     float: left;
-    width: 300px;
-    height: 75px;
+    width: 230px;
+    height: 50px;
     top: 313px;
     background:black;
     border-radius: 50%  ;
-    margin-left: 300px;
-    padding-top: 40px;
+    margin-left: 410px;
+    padding-top: 30px;
     color: black;
-    border:5px #6fcf97 solid;
+    border:7px #6fcf97 solid;
+    float: left;
+
 }
 .elipse2 {
-    float: right;
-    width: 300px;
-    height: 75px;
-    margin-right: 300px;
+    float: left;
+    width: 230px;
+    height: 50px;
+    margin-right: 330px;
     top: 313px;
     background: black;
     border-radius: 50%;
-    padding-top: 40px;
+    padding-top: 30px;
     color: black;
-    border:5px #6fcf97 solid;
+    border:7px #6fcf97 solid;
+}
+#lentes {
+    display: inline; 
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rectangulo3 {
+    position: relative;
     width: 600px;
     height: 100px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 0px;
+    bottom: 0px;
     color: black;
     background: #FFFFFF;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     float: center;
+    padding: 15px;
+    align-items: center;
 }
 .triangulo1 {
     width: 0px;
     height: 0px;
-    border-right: 150px solid transparent;
-    border-left: 150px solid transparent;
-    border-bottom: 100px solid #FFFFFF;
+    border-right: 120px solid transparent;
+    border-left: 120px solid transparent;
+    border-bottom: 40px solid #FFFFFF;
     float: left;
     transform: rotate(45deg);
-    margin-left: 250px;
+    margin-left: 360px;
+
 }
 .triangulo2 {
     width: 0px;
     height: 0px;
-    border-right: 150px solid transparent;
-    border-left: 150px solid transparent;
-    border-bottom: 100px solid #FFFFFF;
+    border-right: 120px solid transparent;
+    border-left: 120px solid transparent;
+    border-bottom: 40px solid #FFFFFF;
     float: right;
     transform: rotate(-45deg);
-    margin-right: 250px;
+    margin-right: 320px;
+
 }
 .ocultar {
     display: none;
 }
 .lineaCentral {
-    height: 20px;
-    width: 25%;
+    height: 10px;
+    width: 80px;
     background-color:#6fcf97;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: 30px;
+    position: relative;
+    float: left;
 }
 .boton {
-   font-size: 50px;
+   font-size: 30px;
    font-family: 'Orbitron', sans-serif;
    color:#6fcf97;
    background-color: black;
    border: 0px;
+   padding: 0px;
+   margin: auto;
 }
-
+#abrigo {
+   margin-right: auto;
+   margin-left: auto;
+}
+p {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.opciones {
+    background-color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    color: #000000;
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+    margin: 30px;
+    line-height: 80px ;
+}
+.titulo1 {
+    margin-top: 40px;
+    background-color: #6fcf97;
+    width: 400px;
+    height: 80px;
+    color: black;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.cifrar {
+    background-color: #6fcf97;
+    font-size: 40px;
+    color: #000000;
+    width: 800px;
+    height: 600px ;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*#6fcf97 */ 
-
+.pizarra {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 200px;
+    line-height: 50px ;
+    font-size: 20px;
+}
+.pizarraC {
+    background: #000000;
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.boton2 {
+    background-color:black;
+    height: 200px;
+    width: 50px;
+    font-size: 30px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.abajo {
+   margin-top: 220px;
+}
+#boton3{
+    font-size: 15px;
+    height: 50px;
+    width: 400px;
+    margin-left: 130px;
+    line-height: 50px;
+}
