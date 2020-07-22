@@ -3,10 +3,11 @@
 //
 // [Português]
 // Importamos o objeto `cipher`, que contém os métodos `encode` e `decode`
+//Funcionalidad de botón inicio
 
 import cipher from '../src/cipher';
 
-describe('cipher', () => {
+describe('cipher', ( ) => {
 
   it('should be an object', () => {
     expect(typeof cipher).toBe('object');

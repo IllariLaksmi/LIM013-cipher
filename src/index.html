@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
+    <main id="root">
   <section>
       <div id="desktop1">
         <div class="rectangulo0"></div>
@@ -20,7 +20,7 @@
       </div> 
 <br><br><br>
          <div id="abrigo">
-            <button class="boton" onclick=showMenu()>INICIO</button>
+            <button class="boton" id="boton1">INICIO</button>
             <div class="triangulo1"></div>
             <div class="triangulo2"></div>
         </div>
@@ -34,39 +34,39 @@
       <div id="desktop2" class="ocultar" >
         <div class="titulo1"> Bienvenid@, ¿quieres cifrar o descifrar?</div>
         <br><br>
-        <div class="opciones" onclick="next1()"><span class="iconify" data-inline="false" data-icon="ic:baseline-vpn-key" style="font-size: 75px;"></span>CIFRAR</div>
-         <div class="opciones" onclick="next2()"><span class="iconify" data-inline="false" data-icon="mdi:file-key-outline" style="font-size: 75px;"></span>DESCIFRAR</div>
+        <div class="opciones" id="boton2"><span class="iconify" data-inline="false" data-icon="ic:baseline-vpn-key" style="font-size: 75px;"></span>CIFRAR</div>
+         <div class="opciones" id="boton3"><span class="iconify" data-inline="false" data-icon="mdi:file-key-outline" style="font-size: 75px;"></span>DESCIFRAR</div>
         <br> <br><br>
-      <button class="boton" onclick="back()"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt" style="font-size: 25px;"></span>Atrás</button>
-      <button class="boton"onclick="showHelp()">Ayuda<span class="iconify" data-inline="false" data-icon="mdi:help" style="font-size: 20px;"></span></button>
+      <button class="boton" id="boton4"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt" style="font-size: 25px;"></span>Atrás</button>
+      <button class="boton" id="boton5">Ayuda<span class="iconify" data-inline="false" data-icon="mdi:help" style="font-size: 20px;"></span></button>
     </div> 
   </section>
   <section>
   <div id="desktop3" class="ocultar">
       <div class="cifrar"><br>Vamos a cifrar
-          <div class="pizarra">Mensaje original</div>
-          <div class="pizarraC"></div>
-          <div class="boton2">E<br>N<br>T<br>E<br>R</div>
+          <div class="pizarra">Mensaje original </div>
+          <div class="pizarraC"><textarea id="txt1" placeholder="Aquí escribe el mensaje"></textarea></div>
+          <div class="enter" id="enter1">E<br>N<br>T<br>E<br>R</div>
           <br>
-          <div class="opciones abajo" id="boton3" >N° de rotaciones: 0<span class="iconify" data-inline="false" data-icon="bi:arrow-up-circle" style="font-size: 30px;"></span>
+          <div class="opciones abajo" id="rotacion" >N° de rotaciones: 0<span class="iconify" data-inline="false" data-icon="bi:arrow-up-circle" style="font-size: 30px;"></span>
             <span class="iconify" data-inline="false" 
             data-icon="bi:arrow-down-circle" style="font-size: 30px;"></span></div>
-            <button class="boton" onclick="back1()"><span class="iconify" 
+            <button class="boton" id="boton6"><span class="iconify" 
               data-inline="false" data-icon="bx:bx-left-arrow-alt" style="font-size: 25px;"></span>Atrás</button>
       </div>
   </div>
 </section>
 <section>
   <div id="desktop4" class="ocultar">
-    <div class="cifrar"><br>Vamos a cifrar
-    <div class="pizarra">Mensaje original</div>
-    <div class="pizarraC"></div>
-    <div class="boton2">E<br>N<br>T<br>E<br>R</div>
+    <div class="cifrar"><br>Vamos a descifrar
+    <div class="pizarra">Mensaje cifrado</div>
+    <div class="pizarraC"><textarea id="txt2" placeholder="Aquí escribe el mensaje"></textarea></div>
+    <div class="enter" id="enter2">E<br>N<br>T<br>E<br>R</div>
     <br>
-    <div class="opciones abajo" id="boton3" >N° de rotaciones: 0<span class="iconify" data-inline="false" data-icon="bi:arrow-up-circle" style="font-size: 30px;"></span>
+    <div class="opciones abajo" id="rotacion" >N° de rotaciones: 0<span class="iconify" data-inline="false" data-icon="bi:arrow-up-circle" style="font-size: 30px;"></span>
       <span class="iconify" data-inline="false" 
       data-icon="bi:arrow-down-circle" style="font-size: 30px;"></span></div>
-      <button class="boton" onclick="back2()"><span class="iconify" 
+      <button class="boton" id="boton7"><span class="iconify" 
         data-inline="false" data-icon="bx:bx-left-arrow-alt" style="font-size: 25px;"></span>Atrás</button>
       </div>
       </div>
@@ -96,12 +96,12 @@ Consistía en escribir el mensaje con un alfabeto que estaba formado por las
 Aunque en Perú se usa más para referenciarse a los rumores de farándula,
  quise cambiar su connotación a algo más positivo =D
       </p>
-      <button class="boton" onclick="back3()"><span class="iconify" 
+      <button class="boton" id="boton8"><span class="iconify" 
         data-inline="false" data-icon="bx:bx-left-arrow-alt" style="font-size: 25px;"></span>Atrás</button>
     </div>
 </section>
-    </div>
-    <script src="index.js" ></script>
+    </main>
+    <script src="index.js" type="module"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
   </body>
 </html>
