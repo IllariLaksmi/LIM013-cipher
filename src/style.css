@@ -192,6 +192,8 @@ p {
     height: 250px;
     margin-left: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #6fcf97;
+    font-size: 20px;
 }
 .enter {
     background-color:black;
@@ -206,7 +208,14 @@ p {
 .abajo {
    margin-top: 220px;
 }
-#rotacion{
+#rotacion1{
+    font-size: 15px;
+    height: 50px;
+    width: 400px;
+    margin-left: 130px;
+    line-height: 50px;
+}
+#rotacion2{
     font-size: 15px;
     height: 50px;
     width: 400px;

@@ -45,12 +45,10 @@
   <div id="desktop3" class="ocultar">
       <div class="cifrar"><br>Vamos a cifrar
           <div class="pizarra">Mensaje original </div>
-          <div class="pizarraC"><textarea id="txt1" placeholder="Aquí escribe el mensaje"></textarea></div>
+          <div class="pizarraC" id="pizarraC1"><textarea id="txt1" placeholder="Aquí escribe el mensaje"></textarea></div>
           <div class="enter" id="enter1">E<br>N<br>T<br>E<br>R</div>
           <br>
-          <div class="opciones abajo" id="rotacion" >N° de rotaciones: 0<span class="iconify" data-inline="false" data-icon="bi:arrow-up-circle" style="font-size: 30px;"></span>
-            <span class="iconify" data-inline="false" 
-            data-icon="bi:arrow-down-circle" style="font-size: 30px;"></span></div>
+          <div class="opciones abajo" id="rotacion1" >N° de rotaciones: <input id="offset1"type="number"min="1" pattern="^[0-9]+"></div>
             <button class="boton" id="boton6"><span class="iconify" 
               data-inline="false" data-icon="bx:bx-left-arrow-alt" style="font-size: 25px;"></span>Atrás</button>
       </div>
@@ -60,12 +58,10 @@
   <div id="desktop4" class="ocultar">
     <div class="cifrar"><br>Vamos a descifrar
     <div class="pizarra">Mensaje cifrado</div>
-    <div class="pizarraC"><textarea id="txt2" placeholder="Aquí escribe el mensaje"></textarea></div>
+    <div class="pizarraC" id="pizarraC2"><textarea id="txt2" placeholder="Aquí escribe el mensaje"></textarea></div>
     <div class="enter" id="enter2">E<br>N<br>T<br>E<br>R</div>
     <br>
-    <div class="opciones abajo" id="rotacion" >N° de rotaciones: 0<span class="iconify" data-inline="false" data-icon="bi:arrow-up-circle" style="font-size: 30px;"></span>
-      <span class="iconify" data-inline="false" 
-      data-icon="bi:arrow-down-circle" style="font-size: 30px;"></span></div>
+    <div class="opciones abajo" id="rotacion2">N° de rotaciones: <input id="offset2" type="number" min="1" pattern="^[0-9]+" ></div>
       <button class="boton" id="boton7"><span class="iconify" 
         data-inline="false" data-icon="bx:bx-left-arrow-alt" style="font-size: 25px;"></span>Atrás</button>
       </div>

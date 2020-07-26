@@ -7,23 +7,33 @@ console.log(cipher);
 const boton1 = document.getElementById("boton1");
 const boton2 = document.getElementById("boton2");
 const boton3 = document.getElementById("boton3");
+const boton4 = document.getElementById("boton4");
+const boton5 = document.getElementById("boton5");
+const boton6 = document.getElementById("boton6");
+const boton7 = document.getElementById("boton7");
+const boton8 = document.getElementById("boton8");
 const pantalla1 = document.getElementById("desktop1");
 const pantalla2 = document.getElementById("desktop2");
 const pantalla3 = document.getElementById("desktop3");
 const pantalla4 = document.getElementById("desktop4");
 const pantalla5 = document.getElementById("desktop5");
-let   txt1 = document.getElementById("txt1");
-let   txt2 = document.getElementById("txt2");
 const enter1= document.getElementById("enter1");
 const enter2= document.getElementById("enter2");
 
-enter1.addEventListener("click", mostrar1);
-function mostrar1(){
-    console.log(txt1.value)
+enter1.addEventListener("click", cifrar);
+function cifrar() {
+   let mensaje =document.getElementById("txt1").value;
+   let offset1 = parseInt(document.getElementById("offset1").value);
+   cipher.encode(offset1, mensaje);
+
 }
+
 enter2.addEventListener("click", mostrar2);
 function mostrar2(){
-    console.log(txt2.value)
+    let mensaje2 = document.getElementById("txt2").value;
+    let offset2 = parseInt(document.getElementById("offset2").value);
+    cipher.decode(offset2, mensaje2);
+
 }
 
  boton1.addEventListener("click", showMenu);
