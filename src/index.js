@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+//console.log(cipher);
 
 //Funcionalidad de los botones
 
@@ -22,9 +22,10 @@ const enter2= document.getElementById("enter2");
 
 enter1.addEventListener("click", cifrar);
 function cifrar() {
-   let mensaje =document.getElementById("txt1").value;
+   let mensaje = document.getElementById("txt1").value;
    let offset1 = parseInt(document.getElementById("offset1").value);
    cipher.encode(offset1, mensaje);
+
 
 }
 
