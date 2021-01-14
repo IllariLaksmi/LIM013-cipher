@@ -1,7 +1,5 @@
 import cipher from './cipher.js';
 
-//console.log(cipher);
-
 //Funcionalidad de los botones
 
 const boton1 = document.getElementById("boton1");
