@@ -21,13 +21,13 @@ _Para desplegar, usa el comando npm start_
 <img src="/images/version final.png" width="500">
 
 ### Investigación UX:
-*_Usuarios y los objetivos príncipales_
+* _Usuarios y los objetivos príncipales_
 Personas interesadas en el cifrado de manera recreativa (redes sociales, chats de videojuegos, secretos, etc..)
-*_Como AMPAY soluciona la necesidad o problemas de los usuarios_ 
+* _Como AMPAY soluciona la necesidad o problemas de los usuarios_ 
 Les permite comunicarse con mensajes breves  que pueden ir cifrando en el momento.
-*_Foto del primer prototipo_ 
+* _Foto del primer prototipo_ 
 <img src="/images/prototipo.jpeg" width="500">
-*_Resumen del feedback inicial_
+* _Resumen del feedback inicial_
 En el primer feedback que recibí, lo que más me dijeron fue que hiciera eliminara varias pantallas innecesarias y que guardara la jerarquía de los botones y los títulos.
 
 ## Construido con 🛠️
