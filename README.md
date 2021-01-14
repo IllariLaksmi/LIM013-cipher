@@ -9,7 +9,7 @@ Este proyecto tenía en mente la difusión de la encriptación como tal. El cifr
 Resumen: Es una aplicación web mediante la cual puedes cifrar y descifrar mensajes utlizando el Cifrado César.
 
 Imagen Final del proyecto:
-<img src="/imagenes/version final.png" width="350">
+<img src="/images/version final.png" width="350">
 
 Investigación UX:
 -Usuarios y los objetivos príncipales: 
