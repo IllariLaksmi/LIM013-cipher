@@ -4,7 +4,7 @@ _Es una aplicación web mediante la cual puedes cifrar y descifrar mensajes utli
 
 ## Comenzando 🚀
 
-_ Puedes clonar mi repositorio mediante Git desde GitHub.O si lo prefieres puedes usar la versión desplegada [Cipher](https://illarilaksmi.github.io/LIM013-cipher/src/)._
+_Puedes clonar mi repositorio mediante Git desde GitHub.O si lo prefieres puedes usar la versión desplegada [Cipher](https://illarilaksmi.github.io/LIM013-cipher/src/)._
 
 
 ### Pre-requisitos 📋
