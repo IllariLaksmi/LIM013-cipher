@@ -1,6 +1,6 @@
 {
   "name": "cipher",
-  "version": "1.0.0",
+  "versi2on": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
   "scripts": {
@@ -10,17 +10,22 @@
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve ./src",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "dev": "nodemon cipher.js"
   },
   "dependencies": {
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^24.9.0",
-    "eslint": "^5.9.0",
+    "eslint-plugin-jest": "^23.19.0",
     "gh-pages": "^2.1.1",
     "htmlhint": "^0.11.0",
-    "jest": "^24.9.0",
+    "nodemon": "^2.0.7",
     "opener": "^1.5.1",
     "serve": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.9.0"
   }
 }

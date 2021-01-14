@@ -1,0 +1,227 @@
+body {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+}
+textarea {
+    background-color: black;
+    color: #6fcf97;
+}
+h3{
+    font-size: large;
+    margin: 0;
+}
+.rectangulo0 {
+    width: 40vw; 
+    height: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    top: 0px;
+    margin-top: 0px;
+    border: 0px;
+    background-color: white;
+}
+
+.rectangulo {
+    width: 60vw; 
+    height: 7vw; 
+    background: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    float: center;
+    font-size: 6vw;
+}
+
+.elipse1 {
+    float: left;
+    width: 17vw;
+    height: 3vw;
+    top: 313px;
+    background:black;
+    border-radius: 50%  ;
+    margin:0;
+    padding-top: 30px;
+    color: black;
+    border:7px #6fcf97 solid;
+    float: left;
+
+}
+.elipse2 {
+    float: left;
+    width: 17vw;
+    height: 3vw;
+    top: 313px;
+    background: black;
+    border-radius: 50%;
+    padding-top: 30px;
+    color: black;
+    border:7px #6fcf97 solid;
+    margin: 0;
+}
+#lentes {
+    display: flex; 
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+
+.rectangulo3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50vw;
+    height: 7vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    color: black;
+    background: #FFFFFF;
+    font-size: large;
+    text-align: center;
+    float: center;
+    padding: 15px;
+    align-items: center;
+}
+.triangulo1 {
+    width: 0px;
+    height: 0px;
+    border-right: 10vw solid transparent;
+    border-left: 10vw solid transparent;
+    border-bottom: 3vw solid #FFFFFF;
+    float: left;
+    transform: rotate(45deg);
+
+}
+.triangulo2 {
+    width: 0px;
+    height: 0px;
+    border-right: 10vw solid transparent;
+    border-left: 10vw solid transparent;
+    border-bottom: 3vw solid #FFFFFF;
+    float: right;
+    transform: rotate(-45deg);
+
+}
+.ocultar {
+    display: none;
+}
+.lineaCentral {
+    height: 1vw;
+    width: 5vw;
+    background-color:#6fcf97;
+    margin-top: 30px;
+    position: relative;
+    float: left;
+}
+.boton {
+   font-size: xx-large ;
+   font-family: 'Orbitron', sans-serif;
+   color:#6fcf97;
+   background-color: black;
+   border: 0px;
+   padding: 0px;
+    margin: 2vw;
+}
+#abrigo {
+   margin-right: auto;
+   margin-left: auto;
+}
+p {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+.opciones {
+    background-color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    color: #000000;
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+    margin: 30px;
+    line-height: 80px ;
+}
+.titulo1 {
+    margin-top: 40px;
+    background-color: #6fcf97;
+    width: 400px;
+    height: 80px;
+    color: black;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.cifrar {
+    background-color: #6fcf97;
+    font-size: 40px;
+    color: #000000;
+    width: 800px;
+    height: 600px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*#6fcf97 */ 
+.pizarra {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 200px;
+    line-height: 50px ;
+    font-size: 20px;
+}
+.pizarraC {
+    background: #000000;
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #6fcf97;
+    font-size: 20px;
+}
+.enter {
+    background-color:black;
+    height: 200px;
+    width: 50px;
+    font-size: 30px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.abajo {
+   margin-top: 220px;
+}
+#rotacion1{
+    font-size: 15px;
+    height: 50px;
+    width: 400px;
+    margin-left: 130px;
+    line-height: 50px;
+}
+#rotacion2{
+    font-size: 15px;
+    height: 50px;
+    width: 400px;
+    margin-left: 130px;
+    line-height: 50px;
+}
