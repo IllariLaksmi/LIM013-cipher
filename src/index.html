@@ -10,99 +10,94 @@
 
 <body>
   <main id="root">
-    <section>
-      <main id="desktop1">
-        <div class="rectangulo0"></div>
-        <div class="rectangulo">AMPAY</div>
-        <div id="lentes">
-          <div class="elipse1"></div>
-          <div class="lineaCentral"></div>
-          <div class="elipse2"></div>
-        </div>
-        <div id="abrigo">
-          <div class="triangulo1"></div>
-          <button class="boton" id="boton1">INICIO</button>
-          <div class="triangulo2"></div>
-        </div>
-        <div class="rectangulo3">Usa estratégicamente el código césar en videojuegos,
-          chats o simplemente diviértete.<br>
-          <p>©IllariProject - Derechos reservados</p>
-        </div>
-      </main>
+    <section id="desktop1">
+      <div class="rectangulo0"></div>
+      <div class="rectangulo">AMPAY</div>
+      <div id="lentes">
+        <div class="elipse1"></div>
+        <div class="lineaCentral"></div>
+        <div class="elipse2"></div>
+      </div>
+      <div id="abrigo">
+        <div class="triangulo1"></div>
+        <button class="boton" id="boton1">INICIO</button>
+        <div class="triangulo2"></div>
+      </div>
+      <div class="rectangulo3">Usa estratégicamente el código césar en videojuegos,
+        chats o simplemente diviértete.<br>
+        <p>©IllariProject - Derechos reservados</p>
+      </div>
     </section>
-    <section>
-      <div id="desktop2" class="ocultar">
-        <div class="titulo1"> Bienvenid@, ¿quieres cifrar o descifrar?</div>
-        <br><br>
-        <div class="opciones" id="boton2"><span class="iconify" data-inline="false" data-icon="ic:baseline-vpn-key"
-            style="font-size: 75px;"></span>CIFRAR</div>
-        <div class="opciones" id="boton3"><span class="iconify" data-inline="false" data-icon="mdi:file-key-outline"
-            style="font-size: 75px;"></span>DESCIFRAR</div>
-        <br> <br><br>
-        <button class="boton" id="boton4"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
+    <section id="desktop2" class="ocultar">
+      <div class="titulo1"> Bienvenid@, ¿quieres cifrar o descifrar?</div>
+      <br><br>
+      <div class="opciones" id="boton2"><span class="iconify" data-inline="false" data-icon="ic:baseline-vpn-key"
+          style="font-size: 75px;"></span>CIFRAR</div>
+      <div class="opciones" id="boton3"><span class="iconify" data-inline="false" data-icon="mdi:file-key-outline"
+          style="font-size: 75px;"></span>DESCIFRAR</div>
+      <br> <br><br>
+      <button class="boton" id="boton4"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
+          style="font-size: 25px;"></span>Atrás</button>
+      <button class="boton" id="boton5">Ayuda<span class="iconify" data-inline="false" data-icon="mdi:help"
+          style="font-size: 20px;"></span></button>
+    </section>
+    <section id="desktop3" class="ocultar">
+      <div class="cifrar"><br>Vamos a cifrar
+        <div class="pizarra">Mensaje original </div>
+        <div class="pizarraC" id="pizarraC1"><textarea id="txt1" placeholder="Aquí escribe el mensaje"></textarea>
+        </div>
+        <div class="enter" id="enter1">E<br>N<br>T<br>E<br>R</div>
+        <br>
+        <div class="opciones abajo" id="rotacion1">N° de rotaciones: <input id="offset1" type="number" min="1"
+            pattern="^[0-9]+"></div>
+        <button class="boton" id="boton6"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
             style="font-size: 25px;"></span>Atrás</button>
-        <button class="boton" id="boton5">Ayuda<span class="iconify" data-inline="false" data-icon="mdi:help"
-            style="font-size: 20px;"></span></button>
       </div>
     </section>
-    <section>
-      <div id="desktop3" class="ocultar">
-        <div class="cifrar"><br>Vamos a cifrar
-          <div class="pizarra">Mensaje original </div>
-          <div class="pizarraC" id="pizarraC1"><textarea id="txt1" placeholder="Aquí escribe el mensaje"></textarea>
-          </div>
-          <div class="enter" id="enter1">E<br>N<br>T<br>E<br>R</div>
-          <br>
-          <div class="opciones abajo" id="rotacion1">N° de rotaciones: <input id="offset1" type="number" min="1"
-              pattern="^[0-9]+"></div>
-          <button class="boton" id="boton6"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
-              style="font-size: 25px;"></span>Atrás</button>
+    <section id="desktop4" class="ocultar">
+      <div class="cifrar"><br>Vamos a descifrar
+        <div class="pizarra">Mensaje cifrado</div>
+        <div class="pizarraC" id="pizarraC2"><textarea id="txt2" placeholder="Aquí escribe el mensaje"></textarea>
         </div>
+        <div class="enter" id="enter2">E<br>N<br>T<br>E<br>R</div>
+        <br>
+        <div class="opciones abajo" id="rotacion2">N° de rotaciones: <input id="offset2" type="number" min="1"
+            pattern="^[0-9]+"></div>
+        <button class="boton" id="boton7"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
+            style="font-size: 25px;"></span>Atrás</button>
       </div>
     </section>
-    <section>
-      <div id="desktop4" class="ocultar">
-        <div class="cifrar"><br>Vamos a descifrar
-          <div class="pizarra">Mensaje cifrado</div>
-          <div class="pizarraC" id="pizarraC2"><textarea id="txt2" placeholder="Aquí escribe el mensaje"></textarea>
-          </div>
-          <div class="enter" id="enter2">E<br>N<br>T<br>E<br>R</div>
-          <br>
-          <div class="opciones abajo" id="rotacion2">N° de rotaciones: <input id="offset2" type="number" min="1"
-              pattern="^[0-9]+"></div>
-          <button class="boton" id="boton7"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
-              style="font-size: 25px;"></span>Atrás</button>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div id="desktop5" class="ocultar cifrar">
-        AYUDA
-        <p>¿Qué es el código Cesar?<br>
-          El cifrado César es uno de los primeros métodos de cifrado
+    <section id="desktop5" class="ocultar cifrar">
+      <h2>AYUDA</h2>
+      <article>
+        <h3>¿Qué es el código Cesar?</h3>
+        <p>El cifrado César es uno de los primeros métodos de cifrado
           conocidos históricamente. Julio César lo usó para enviar órdenes
           a sus generales en los campos de batalla.
           Consistía en escribir el mensaje con un alfabeto que estaba formado por las
           letras del alfabeto latino normal desplazadas tres posiciones a la derecha.
         </p>
-        <p>¿Cómo empiezo a cifrar o descifrar??
-          <br>
-          Para Cifrar: 1. Escribes el mensaje. 2. Escoges el numero de desplazamiento del alfabeto.
+      </article>
+      <article>
+        <h3>¿Cómo empiezo a cifrar o descifrar??</h3>
+        <p>Para Cifrar: 1. Escribes el mensaje. 2. Escoges el numero de desplazamiento del alfabeto.
           Ej. A en 3 desp. es D. 3. Le das a enter.
           4. Copias el mensaje cifrado y a divertirse!
           Para descifrar: 1. Escribes o pegas el mensaje cifrado. 3.
           Escoges el numero de desplazamiento en el que esta cifrado. 4.
           Le des a enter y el mensaje ya está revelado!
         </p>
-        <p>¿Por qué AMPAY?<br>
-          AMPAY es una palabra quechua que se traduce al español como:
+      </article>
+      <article>
+        <h3>¿Por qué AMPAY?</h3>
+        <p>AMPAY es una palabra quechua que se traduce al español como:
           “Descubrimiento de algo o alguien que trataba de ocultarse.”
           Aunque en Perú se usa más para referenciarse a los rumores de farándula,
           quise cambiar su connotación a algo más positivo =D
         </p>
-        <button class="boton" id="boton8"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
-            style="font-size: 25px;"></span>Atrás</button>
-      </div>
+      </article>
+      <button class="boton" id="boton8"><span class="iconify" data-inline="false" data-icon="bx:bx-left-arrow-alt"
+          style="font-size: 25px;"></span>Atrás</button>
     </section>
   </main>
   <script src="index.js" type="module"></script>
