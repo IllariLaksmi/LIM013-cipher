@@ -1,21 +1,3 @@
-
-
-Imagen Final del proyecto:
-<img src="/images/version final.png" width="500">
-
-Investigación UX:
--Usuarios y los objetivos príncipales: 
-Personas interesadas en el cifrado de manera recreativa (redes sociales, chats de videojuegos, secretos, etc..).
--Como AMPAY soluciona la necesidad o problemas de los usuarios: 
-Les permite comunicarse con mensajes breves  que pueden ir cifrando en el momento.
--Foto del primer prototipo: 
-Están en la carpeta imágenes.
--Resumen del feedback inicial:
-En el primer feedback que recibí, lo que más me dijeron fue que hiciera eliminara varias pantallas innecesarias y que guardara la jerarquía de los botones y los títulos.
--Imagen del prototipo final: 
-Está en la carpeta de imágenes
-
-
 # Caesar Cipher
 
 _Es una aplicación web mediante la cual puedes cifrar y descifrar mensajes utlizando el Cifrado César._
